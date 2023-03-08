@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background-color: skyblue;
+    height: 700px;
+
+    
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+input {
+        margin-top: 2em;
+        padding: 0;
+        border: none;
+        width: 70px;
+        height: 40px;
+    
+}
+
+select {
+        margin-top: 2em;
+        margin-left: 1em;
+        text-align: center;
+        width: 300px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 5px;
+        
+
+}
+
+
+button {
+        margin-top: 2em;
+        border-radius: 5px;
+        margin-left: 1em;
+        background-color: whitesmoke;
+        border: 1px solid black
+}
+
+ 
+
+.renderData {
+    width: 96%;
+    margin: 2em auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.color {
+    height: 85vh;
+    position: relative;   
+}
+
+.color h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    position: absolute;
+    bottom: -40px;
+
+}
+
