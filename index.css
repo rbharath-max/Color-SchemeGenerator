@@ -9,7 +9,7 @@ section {
     margin-right: auto;
     width: 800px;
     background-color: skyblue;
-    height: 700px;
+    height: 800px;
 
     
 }
@@ -62,7 +62,7 @@ button {
 }
 
 .color {
-    height: 85vh;
+    height: 65vh;
     position: relative;   
 }
 
